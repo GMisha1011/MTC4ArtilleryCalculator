@@ -6,7 +6,7 @@ def main():
     print("• Enter A, B as float values (number of squares).")
     print("• Then enter height state: -1 (lower), 0 (same level), 1 (higher).")
     print("• Then enter cover state: 0 (not behind building), 1 (behind building => +2.5°).")
-    print("• If range > 2000 studs, it's impossible to hit.\n")
+    print("• If range > 2500 studs, it's impossible to hit.\n")
     print("Commands in input:")
     print("  'C'  => change square size (studs)")
     print("  'CE' => change projectile speed (studs/s)")
@@ -118,7 +118,7 @@ def main():
 
             # Check max range
             if distance > MAX_RANGE:
-                print("Impossible to hit (distance > 2000 studs).")
+                print("Impossible to hit (distance > 2500 studs).")
                 continue
 
             if distance == 0:
