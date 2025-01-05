@@ -1,2 +1,2 @@
 # MTC4ArtilleryCalculator
-A simple Python program that calculates the firing angle and distance for MTC4 Roblox game.
+A simple Python program that calculates the firing angle and distance for MTC4 Roblox game. You need to input horizontal grid offsets (A, B), the target’s relative height (above, same level, or below), and whether the target is behind a building. The script applies small, fixed-degree adjustments to the angle for those conditions, then prints a “low-angle” solution. Ideal for quick, approximate projectile calculations without complex physics.
