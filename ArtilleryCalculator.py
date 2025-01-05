@@ -15,7 +15,7 @@ def main():
     g = 17.0         # gravity in studs/s^2
     EPS = 1e-7       # small epsilon for clamping sin(2θ)
     DECIMALS = 2     # how many decimals to show
-    MAX_RANGE = 2000 # if distance > 2000 studs => impossible to hit
+    MAX_RANGE = 2500 # if distance > 2500 studs => impossible to hit
 
     def set_square_size():
         """Ask user for the square size in studs."""
